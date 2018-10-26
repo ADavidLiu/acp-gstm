@@ -20,17 +20,22 @@ h4,
 h5,
 h6,
 p,
-li,
 ul,
 ol,
-span {
-    margin: 0;
+span,
+small {
+    display: block;
+    margin: 0 0 1rem 0;
     padding: 0;
+    @include atMedium {
+        margin-bottom: 2rem;
+    }
 }
 
 img {
     max-width: 100%;
     height: auto;
+    margin: 1rem 0;
 }
 
 ul,
@@ -47,8 +52,4 @@ select {
     &:focus {
         outline: none !important;
     }
-}
-
-::selection {
-    
 }
