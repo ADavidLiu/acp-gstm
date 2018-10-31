@@ -1,0 +1,61 @@
+html,
+body {
+    overflow-x: hidden;
+    font-size: 12px;
+    @include atSmall {
+        font-size: 14px;
+    }
+    @include atMedium {
+        font-size: 15px;
+    }
+    @include atLarge {
+        font-size: 16px;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+span,
+small {
+    display: block;
+    margin: 0 0 1rem 0;
+    padding: 0;
+    @include atMedium {
+        margin-bottom: 2rem;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 1rem 0;
+}
+
+ul,
+ol {
+    list-style: none;
+    padding-left: 0;
+}
+
+input,
+button,
+select {
+    border: none;
+
+    &:focus {
+        outline: none !important;
+    }
+}
+
+
+::selection {
+    background-color: $color-primary;
+    color: $color-white;
+}
