@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 html,
 body {
   overflow-x: hidden;
@@ -77,4 +83,11 @@ select {
     padding-right: 0; } }
 
 .wrapper__main-inner {
-  padding: 2.5rem 15px; }
+  padding: 2.5rem 15px;
+ }
+
+/*Espacio para las varibales en responsive*/
+
+@media screen and (max-width: 768px){
+
+};
