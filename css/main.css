@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 html,
 body {
   overflow-x: hidden;
@@ -65,7 +71,7 @@ select {
 .wrapper__nav {
   position: relative;
   z-index: 1;
-  padding: 1.5rem 15px; }
+  padding: 1.5rem 0rem; }
   @media screen and (min-width: 768px) {
     .wrapper__nav {
       -webkit-box-shadow: 2px 0px 2px 0 rgba(0, 0, 0, 0.14), 3px 0px 1px -2px rgba(0, 0, 0, 0.2), 1px 0px 5px 0 rgba(0, 0, 0, 0.12);
@@ -77,4 +83,11 @@ select {
     padding-right: 0; } }
 
 .wrapper__main-inner {
-  padding: 2.5rem 15px; }
+  padding: 2.5rem 15px;
+ }
+
+/*Espacio para las varibales en responsive*/
+
+@media screen and (max-width: 768px){
+
+};
