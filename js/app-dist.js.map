@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"version":3,"sources":["modules/header.js","app.js"],"names":["Header","_this","this","btn","nav","toggleMenu","$","document","ready","bootstrapMaterialDesign"],"mappings":"6HACAA,OAAA,SAAAA,IACA,IAAAC,EAAAC,0GAeA,GAAA,8DACA,GAAA,iCAdA,eACA,iDAIAC,0BACAC,+BAGAC,aCXAC,EAAAC,UAAAC,MAAA,qBAGAC,8BAEAT"}
+=======
+{"version":3,"sources":["app.js"],"names":["$","document","ready","bootstrapMaterialDesign"],"mappings":"aAAAA,EAAAC,UAAAC,MAAA,qBAGAC"}
+>>>>>>> origin/master

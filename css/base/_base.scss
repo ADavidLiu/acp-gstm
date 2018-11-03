@@ -52,10 +52,13 @@ select {
     &:focus {
         outline: none !important;
     }
+<<<<<<< HEAD
 }
 
 
 ::selection {
     background-color: $color-primary;
     color: $color-white;
+=======
+>>>>>>> origin/master
 }
