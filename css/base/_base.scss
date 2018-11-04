@@ -40,8 +40,19 @@ img {
 
 ul,
 ol {
-    list-style: none;
-    padding-left: 0;
+    padding-left: 2rem;
+    @include atMedium {
+        padding-left: 1.5rem;
+    }
+
+    &.list {
+        li + li {
+            margin-top: 1.333rem;
+            @include atMedium {
+                margin-top: 1rem;
+            }
+        }
+    }
 }
 
 input,
@@ -52,13 +63,9 @@ select {
     &:focus {
         outline: none !important;
     }
-<<<<<<< HEAD
 }
-
 
 ::selection {
     background-color: $color-primary;
     color: $color-white;
-=======
->>>>>>> origin/master
 }
