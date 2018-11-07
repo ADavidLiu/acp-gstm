@@ -109,4 +109,8 @@ select {
       .wrapper__menu{
         display: none;
       }
+
+      .wrapper__main-inner{
+        padding-bottom: 10rem;
+      }
     }
